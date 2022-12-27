@@ -12,10 +12,23 @@ Run `nx serve home` for a dev server. Navigate to http://localhost:4200/. The ap
 
 Run `nx graph` to see a diagram of the dependencies of the projects.
 
-## Remote caching
 
-Run `npx nx connect-to-nx-cloud` to enable [remote caching](https://nx.app) and make CI faster.
+## Applications
 
-## Further help
+[Home]
 
-Visit the [Nx Documentation](https://nx.dev) to learn more.
+[Core]
+
+
+## Libraries
+[common-library]
+
+## Assessment
+
+As per assessment given, I have included 2 applications and 1 library.
+
+Home Apllication is having Navigation bar where 3 menus/navigations are added
+
+First Navigation loads In applciation component
+Second Navigation loads component from another angular application called [Core]
+Third Navigation loads component from library module
